@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     box-sizing: border-box;
     font-family: 'Work Sans';
@@ -14,7 +15,7 @@ html{
     top: 0;
     left: 0;
     z-index: 99;
-    text-align: center;
+
 }
 .contenedor-header header{
     max-width: 1100px;
@@ -54,7 +55,7 @@ html{
     border-radius: 5px;
     cursor: pointer;
     display: none;
-    z-index: 50;
+    z-index: 90;
 }
 
 .circulo{
