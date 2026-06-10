@@ -15,7 +15,7 @@
         <header>
             
             <div class="logo">
-                <a href="#">Portfolio</a>
+                <a href="inicio">Portfolio</a>
             </div>
             <nav id="nav">
                 <ul>
@@ -24,6 +24,7 @@
                     <li ><a href="#skills">SKILLS</a></li>
                     <li ><a href="#curriculum">FORMACION</a></li>
                     <li ><a href="#contacto">CONTACTO</a></li>
+                    <li><a href="#proyectos">PROYECTOS</a></li>
                 </ul>
             </nav>
             <div class="nav-reponsive">
@@ -36,7 +37,7 @@
     <section id="inicio" class="inicio">
         <div class="contenido-banner">
             <div class="contacto-img">
-                <img src="img profolio.jpg" class="circulo" alt="">
+                <img src="./iamgenes/img porfolio2.jpg" class="circulo" alt="Ian Isaias Kochniuk">
             </div>
             <h1> Ian Isaias Kochniuk</h1>
             <h2>Tecnico en Automotor</h2>
@@ -53,9 +54,7 @@
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
             <h2>Sobre Mi</h2>
-            <p><span>Hola, soy Ian Isaias Kochniuk</span> Si bien termine mis estudios con muy buen promedio como Tecnico de automotor, mi inclinacion por la tecnologia me marco un camino a seguir. 
-                Me considero un Desarrollador front-end en formación, con conocimientos en HTML, CSS, JavaScript, Bootstrap y React. Apasionado por la creación de interfaces de usuario atractivas y funcionales, y en constante aprendizaje de nuevas tecnologías. 
-                Busco una oportunidad para aplicar y mejorar mis habilidades en un entorno profesional. </p>
+            <p><span>Hola, soy Ian Isaias Kochniuk</span> Desarrollador Frontend Junior con conocimientos en HTML5, CSS3, JavaScript y React. Experiencia en creación de interfaces web responsivas, maquetado, control de versiones con Git/GitHub y aprendizaje continuo de nuevas tecnologías. Me caracterizo por la resolución de problemas, aprendizaje continuo y capacidad para trabajar tanto de forma autónoma como en equipo. Busco incorporarme a un entorno profesional donde pueda aportar valor y seguir creciendo como desarrollador. </p>
             <div class="fila">
                 <!--datos personales-->
                 <div class="col">
@@ -109,7 +108,7 @@
                  </div>
             </div>
             <button>
-                  <a href="CV2024-Ian-Kochniuk.pdf" download>
+                  <a href="CV2026-Ian-Kochniuk.pdf" download>
                 Descargar CV <i class="fa-solid fa-download"></i></a>
                 <Spam class="overlay"></Spam>
             </button>
@@ -214,56 +213,122 @@
         </div>
     </section>
 
-    <!---SECCION CURRICULUM-->
-    <section id="curriculum" class="curriculum">
-        <div class="contenido-seccion">
-            <h2>Formacion</h2>
-            <div class="fila">
-                <div class="col izquierda">
-                    <h3>Educacion</h3>
-                    <div class="item izq">
-                        <h4>Tecnico Automotor</h4>
-                        <span class="casa">Escuela Tecnica n°2 Obispo Colombres</span>
-                        <span class="fechas">2019-2023</span>
-                        <h3>Proyecto</h3>
-                        <span>Arenero con motor de combustión interna: Tesis de la Tecnicatura en Automotor – 2023</span>
-                        <ul class="caja-lista">
-                            <li>Análisis de alcance y factibilidad</li>
-                            <li>Planificación de Tiempos de entrega y presentaciones parciales.</li>
-                            <li>Organización de equipo</li>
-                            <li>Documentación</li>
-                            <li>Investigación</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col derecha">
-                    <img src="Arenero.jpg" class="Arenero" alt="">
+  <!-- SECCION PROYECTOS -->
+<section id="proyectos" class="proyectos">
+    <div class="contenido-seccion">
+        <h2>Mis Proyectos</h2>
+
+        <div class="contenedor-proyectos">
+
+            <!-- PROYECTO 1 -->
+            <div class="proyecto-card">
+
+                <div class="galeria-proyecto">
+                    <img src="img/portfolio1.png" alt="Portfolio">
+                    <img src="img/portfolio2.png" alt="Portfolio">
+                    <img src="img/portfolio3.png" alt="Portfolio">
                 </div>
 
-                
+                <div class="indicadores">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <h3>Market de productos</h3>
+
+                <p>
+                    Sitio web de comercio electrónico con catálogo de productos,
+                    carrito de compras y proceso de pago simulado.
+                </p>
+
+                <div class="tecnologias">
+                    <span>React</span>
+                    <span>JavaScript</span>
+                    <span>PostgreSQL</span>
+                    <span>Postaml</span>
+                </div>
+
+                <div class="botones">
+                    <a href="TU_LINK_DEMO" target="_blank">Demo</a>
+                    <a href="TU_LINK_GITHUB" target="_blank">GitHub</a>
+                </div>
+
             </div>
-        </div>
-    </section>
 
-    <section id="contacto" class="contacto">
-        <div class="contenido-seccion">
-            <h2>Contactame enviandome un Correo</h2>
-    
-            <form action="mailto:ianisaiaskoch@gmail.com" method="post" enctype="text/plain" class="formulario-mail">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre"><br><br>
-        
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" placeholder="Tu correo"><br><br>
-        
-                <label for="mensaje">Mensaje:</label><br>
-                <textarea id="mensaje" name="mensaje" rows="4" cols="50" placeholder="Escribe tu mensaje aquí"></textarea><br><br>
-        
-                <input type="submit" value="Enviar" class="boton-mail">
-                <input type="reset" value="Borrar" class="boton-mail">
-            </form>
+            <!-- PROYECTO 2 -->
+            <div class="proyecto-card">
+
+                <div class="galeria-proyecto">
+                    <img src="./iamgenes/multiapp/multiapp 1.PNG" alt="ToDo">
+                    <img src="./iamgenes/multiapp/multiapp 2.PNG" alt="ToDo">
+                    <img src="./iamgenes/multiapp/multiapp 3.PNG" alt="ToDo">
+                </div>
+
+                <div class="indicadores">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <h3>To-Do Home</h3>
+
+                <p>
+                    Aplicación de gestión de tareas con creación,
+                    eliminación y seguimiento de actividades.
+                </p>
+
+                <div class="tecnologias">
+                    <span>React</span>
+                    <span>JavaScript</span>
+                    <span>CSS</span>
+                </div>
+
+                <div class="botones">
+                    <a href="miniapp-react.netlify.app" target="_blank">Demo</a>
+                    <a href="https://github.com/Iankochniuk/multiapp-react" target="_blank">GitHub</a>
+                </div>
+
+            </div>
+
+            <!-- PROYECTO 3 -->
+            <div class="proyecto-card">
+
+                <div class="galeria-proyecto">
+                    <img src="./iamgenes/loading page/loading page 1.PNG" alt="Clima">
+                    <img src="./iamgenes/loading page/loading page2.PNG" alt="Clima">
+                    <img src="./iamgenes/loading page/loading page 3.PNG" alt="Clima">
+                </div>
+
+                <div class="indicadores">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <h3>Landing Page</h3>
+
+                <p>
+                    Sitio web de una empresa ficticia, diseñado para mostrar
+                    servicios y contacto.
+                </p>
+
+                <div class="tecnologias">
+                    <span>React</span>
+                    <span>JavaScript</span>
+                    <span>CSS</span>
+                </div>
+
+                <div class="botones">
+                    <a href="delightful-starburst-265478.netlify.app" target="_blank">Demo</a>
+                    <a href="" target="_blank">GitHub</a>
+                </div>
+
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- SECCION PIEPAGINA -->
      <section id="pie" class="pie">
