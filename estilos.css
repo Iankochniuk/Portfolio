@@ -311,11 +311,11 @@ html {
     width: 57%;
   }
 }
-.skills .skill .TailwindCSS {
+.skills .skill .Bootstrap-Tailwind {
   width: 0%;
-  animation: 2s TailwindCSS forwards;
+  animation: 2s Bootstrap-Tailwind forwards;
 }
-@keyframes TailwindCSS {
+@keyframes Bootstrap-Tailwind {
   0% {
     width: 0%;
   }
@@ -1020,4 +1020,14 @@ html {
 
 .boton-mail:hover {
   background: #16967d;
+}
+.link-cv {
+  color: #1cb698;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.link-cv:hover {
+  text-decoration: underline;
 }
