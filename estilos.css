@@ -487,17 +487,9 @@ html {
 }
 
 .contacto {
-  background-color: #252a2e;
+  background-color: #1e2326;
   color: #fff;
   padding: 45px 20px;
-  z-index: 99;
-}
-
-.contacto h2 {
-  font-size: 48px;
-  font-family: "Righteous";
-  text-align: center;
-  padding: 20px 0;
   z-index: 99;
 }
 
@@ -527,11 +519,19 @@ html {
   justify-content: center;
 }
 
+.contacto .contenido-seccion {
+  max-width: 1110px;
+  margin: auto;
+  background-color: transparent;
+}
+
 .formulario-mail {
   width: 50%;
-  margin-left: 320px;
-  padding: 5px;
-  z-index: 99;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #252a2e;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 .piepagina h6 {
@@ -663,6 +663,38 @@ html {
   .skills .skill .barra-skill span {
     font-size: 12px;
   }
+}
+
+/* ========================= */
+/* ARREGLO TEMA OSCURO CONTACTO */
+/* ========================= */
+
+.formulario-mail input,
+.formulario-mail textarea {
+  background-color: #1e2326; /* mismo fondo que tu portfolio */
+  color: #fff; /* texto blanco */
+  border: 2px solid #252a2e;
+}
+
+/* placeholder (texto gris dentro del input) */
+.formulario-mail input::placeholder,
+.formulario-mail textarea::placeholder {
+  color: #888;
+}
+
+/* cuando haces click */
+.formulario-mail input:focus,
+.formulario-mail textarea:focus {
+  background-color: #252a2e;
+  border-color: #1cb698;
+}
+
+/* opcional: mejorar contraste general del formulario */
+.formulario-mail {
+  background-color: #252a2e;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 768px) {
@@ -927,5 +959,53 @@ html {
 }
 
 .botones a:hover {
+  background: #16967d;
+}
+/* CONTACTO */
+
+.contacto {
+  background: #252a2e;
+  color: #fff;
+  padding: 80px 20px;
+}
+
+.formulario-mail {
+  max-width: 700px;
+  margin: auto;
+  background: #1e2326;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.formulario-mail label {
+  display: block;
+  margin: 15px 0 5px;
+}
+
+.formulario-mail input,
+.formulario-mail textarea {
+  width: 100%;
+  padding: 12px;
+  background: #252a2e;
+  border: 1px solid #444;
+  color: white;
+  border-radius: 8px;
+}
+
+.formulario-mail textarea {
+  resize: vertical;
+}
+
+.boton-mail {
+  margin-top: 15px;
+  background: #1cb698;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.boton-mail:hover {
   background: #16967d;
 }
