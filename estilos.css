@@ -299,11 +299,11 @@ html {
     width: 87%;
   }
 }
-.skills .skill .react {
+.skills .skill .Python {
   width: 0%;
-  animation: 2s react forwards;
+  animation: 2s Python forwards;
 }
-@keyframes react {
+@keyframes Python {
   0% {
     width: 0%;
   }
@@ -311,11 +311,11 @@ html {
     width: 57%;
   }
 }
-.skills .skill .bootstrap {
+.skills .skill .TailwindCSS {
   width: 0%;
-  animation: 2s bootstrap forwards;
+  animation: 2s TailwindCSS forwards;
 }
-@keyframes bootstrap {
+@keyframes TailwindCSS {
   0% {
     width: 0%;
   }
@@ -328,6 +328,18 @@ html {
   animation: 2s SQL forwards;
 }
 @keyframes SQL {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 57%;
+  }
+}
+.skills .skill .React {
+  width: 0%;
+  animation: 2s React forwards;
+}
+@keyframes React {
   0% {
     width: 0%;
   }
